@@ -14,4 +14,26 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\curses.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\curspriv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\panel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pdcwin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\term.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
