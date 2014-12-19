@@ -86,7 +86,7 @@
     <ClInclude Include="include\term.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="loader.c" />
+    <ClCompile Include="src\loader.c" />
     <ClCompile Include="src\main.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
